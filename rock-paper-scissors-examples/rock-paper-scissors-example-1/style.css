@@ -1,0 +1,114 @@
+*, *::after, *::before{
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 10vh;
+    font-size: 10vh;
+    border: 0.5vh solid #d5b41b;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: #f0de89;
+
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 60vh;
+}
+@media only screen and (max-width: 850px) {
+    .buttons{
+        max-height: 40vh;
+
+    }
+}
+
+
+
+.player{
+    width: 35%;
+    height: 10vh;
+    background-color: #89cff0;
+    text-align: center;
+    color: white;
+    margin: 1vw;
+    border-radius: 25vh;
+    border: solid 0.5vh #1b99d5;
+    font-size: 5vh;
+
+}
+
+.computer{
+    width: 35%;
+    height: 10vh;
+    background-color: #f0899c;
+    text-align: center;
+    color: #d51b3d;
+    margin: 1vw;
+    border-radius: 25vh;
+    border: solid 0.5vh;
+    align-self: flex-end;
+    font-size: 5vh;
+
+}
+
+#computerRock{
+    display: none;
+    
+}
+#computerPaper{
+    display: none;
+
+}
+#computerScissors{
+    display: none;
+
+}
+
+.bg{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: -10;
+    top: -100vh;
+    left: -60vw;
+    transform: rotate(-45deg);
+    
+}
+
+
+.bg1{
+    width: 250vw;
+    height: 5vh;
+    background: #f9f1cf;
+    padding: 0;
+    margin: 0;
+}
+
+.bg2{
+    width: 250vw;
+    height: 5vh;
+    background: #f9cfd7;
+    padding: 0;
+    margin: 0;
+}
+
+.bg3{
+    width: 250vw;
+    height: 5vh;
+    background: #cfd7f9;
+    padding: 0;
+    margin: 0;
+}
